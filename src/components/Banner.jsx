@@ -24,8 +24,8 @@ function Banner({fetchUrl}) {
     <div style={{height:'600px',backgroundImage:`url(${base_url}${movie?.backdrop_path})`,backgroundSize:'cover',backgroundAttachment:'fixed'}}>
         <div className="banner-content">
             <h1>{movie?.name}</h1>
-            <button className='btn btn-danger ms-3'>Play  <i className='fa-solid fa-play'></i></button>
-            <button className='btn btn-outline-light ms-3'>More info <i className='fa-solid fa-caret-down'></i> </button>
+            <button className='btn btn-danger ms-3'>Play  <i style={{backgroundColor:"transparent"}} class="fa-solid fa-play"></i></button>
+            <button className='btn btn-outline-light ms-3'>More info <i style={{backgroundColor:"transparent"}} class="fa-solid fa-caret-down"></i> </button>
             <h2>{movie?.overview?.slice(0,200)}...</h2>
         </div>
 

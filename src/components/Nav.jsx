@@ -16,7 +16,7 @@ function Nav() {
     })
   })
   return (
-    <div className={`${show && 'nav-black'} nav`}><img width={'150px'} src="https://www.freepnglogos.com/uploads/netflix-logo-drawing-png-19.png" alt="" /></div>
+    <div className={`${show && 'nav-black'} nav`}><img width={'150px'} style={{backgroundColor:"transparent"}}  src="https://davidblaine.com/wp-content/uploads/2017/04/netflix-logo.png" alt="" /></div>
   )
 }
 
